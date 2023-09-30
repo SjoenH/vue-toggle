@@ -35,7 +35,6 @@ const uniqueID = `checkbox-${Math.random().toString(36).substring(2, 7)}`; // To
   display: flex;
   align-items: center;
   gap: 0.25rem;
-  flex: auto;
 }
 
 .toggleContainer__label {
@@ -45,7 +44,6 @@ const uniqueID = `checkbox-${Math.random().toString(36).substring(2, 7)}`; // To
 /* the switch - the box around the slider */
 .toggleContainer__input {
   position: relative;
-  display: inline-block;
 
   width: 2.125rem;
   height: 1rem;
