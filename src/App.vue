@@ -48,3 +48,9 @@ const checked3 = ref(false);
   <ToggleSwitch v-model:checked="checked3" label-left="Disable the toggle under"/>
   <ToggleSwitch :disabled="checked3" :label-right="checked3?`Can't touch me!`:`You can interact with me`"/>
 </template>
+
+<style>
+body {
+  font-family: "Helvetica Neue", sans-serif;
+}
+</style>
